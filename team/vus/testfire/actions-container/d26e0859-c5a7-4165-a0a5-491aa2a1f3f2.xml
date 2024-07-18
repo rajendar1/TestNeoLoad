@@ -1,0 +1,32 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/login" path="/api/login" postType="4"
+    serverUid="demo.testfire.net" slaProfileEnabled="false"
+    uid="d26e0859-c5a7-4165-a0a5-491aa2a1f3f2" useKeepAlive="true">
+    <binaryPostContentBase64><![CDATA[]]></binaryPostContentBase64>
+    <responsePageFileDescription>team/vus/testfire/%resources%/recorded-responses/res_d26e0859-c5a7-4165-a0a5-491aa2a1f3f2</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/testfire/%resources%/recorded-requests/req_d26e0859-c5a7-4165-a0a5-491aa2a1f3f2.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="x[0].Authorization" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="ExtractedVariable_0"
+        refererUid="d26e0859-c5a7-4165-a0a5-491aa2a1f3f2" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="ad3979be-8883-4223-a563-d1eeff62328d" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Connection" value="keep-alive"/>
+    <header name="accept" value="application/json"/>
+    <header name="Content-Type" value="application/json"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+  "username": "jsmith",
+  "password": "demo1234"
+}]]></textPostContent>
+</http-action>

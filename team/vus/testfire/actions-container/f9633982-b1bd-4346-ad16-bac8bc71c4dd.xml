@@ -1,0 +1,15 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/account" path="/api/account" postType="1"
+    serverUid="demo.testfire.net" slaProfileEnabled="false"
+    uid="f9633982-b1bd-4346-ad16-bac8bc71c4dd" useKeepAlive="true">
+    <responsePageFileDescription>team/vus/testfire/%resources%/recorded-responses/res_f9633982-b1bd-4346-ad16-bac8bc71c4dd</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/testfire/%resources%/recorded-requests/req_f9633982-b1bd-4346-ad16-bac8bc71c4dd.txt</requestContentFileDescription>
+    <header name="Connection" value="keep-alive"/>
+    <header name="accept" value="application/json"/>
+    <header name="Authorization" value="YW5OdGFYUm86WkdWdGJ6RXlNelE9OnA/Rz84aTk="/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

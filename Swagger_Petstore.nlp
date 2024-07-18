@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=Swagger_Petstore
+project.version=8.9
+project.original.version=8.9
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=2024.1.0
+project.is-open-test-settings-after-upload=false
+project.id=62b14b2c-6982-40aa-93c2-f0a8537199d3
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/rajendar1/TestNeoLoad.git
